@@ -22,51 +22,54 @@ struct MagnificationGestureBC: View {
                 Image(systemName: "ellipsis")
             }
             .padding(.horizontal)
+            
             Image("juliette")
                 .resizable()
                 .scaledToFit()
                 .frame(height: 300)
                 .scaleEffect(1 + currentAmount)
                 .gesture(
-                MagnificationGesture()
-                    .onChanged { value in
-                        currentAmount = value - 1
-                    }
-                    .onEnded { value in
-                        withAnimation(.spring()) {
-                            currentAmount = 0
+                    MagnificationGesture()
+                        .onChanged { value in
+                            currentAmount = value - 1
                         }
-                    }
+                        .onEnded { value in
+                            withAnimation(.spring()) {
+                                currentAmount = 0
+                            }
+                        }
                 )
+            
             HStack {
                 Image(systemName: "heart.fill")
                 Image(systemName: "text.bubble.fill")
-Spacer()
-            
+                Spacer()
+                
             }
             .padding(.horizontal)
             .font(.headline)
+            
             Text("This is the caption for my photo!")
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal)
         }
-//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-//            .font(.title)
-//            .padding(40)
-//            .background(Color.orange.cornerRadius(15))
-//            .scaleEffect(1 + currentAmount + lastAmount)
-//            .gesture(
-//            MagnificationGesture()
-//                .onChanged { value in
-//                    currentAmount = value - 1
-//                    print("current: \(currentAmount)")
-//                }
-//                .onEnded { value in
-//                    lastAmount += currentAmount
-//                    print("last: \(lastAmount)")
-//                    currentAmount = 0
-//                }
-//            )
+        //        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        //            .font(.title)
+        //            .padding(40)
+        //            .background(Color.orange.cornerRadius(15))
+        //            .scaleEffect(1 + currentAmount + lastAmount)
+        //            .gesture(
+        //            MagnificationGesture()
+        //                .onChanged { value in
+        //                    currentAmount = value - 1
+        //                    print("current: \(currentAmount)")
+        //                }
+        //                .onEnded { value in
+        //                    lastAmount += currentAmount
+        //                    print("last: \(lastAmount)")
+        //                    currentAmount = 0
+        //                }
+        //            )
     }
 }
 
