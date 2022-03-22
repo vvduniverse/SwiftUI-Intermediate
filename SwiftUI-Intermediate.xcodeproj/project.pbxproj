@@ -12,6 +12,7 @@
 		8470810327E8BA8500A58892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8470810227E8BA8500A58892 /* Assets.xcassets */; };
 		8470810627E8BA8500A58892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8470810527E8BA8500A58892 /* Preview Assets.xcassets */; };
 		8470810D27E8BAAF00A58892 /* LongPressGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470810C27E8BAAF00A58892 /* LongPressGestureBC.swift */; };
+		8470AFD527E9D0F600F9DD82 /* MagnificationGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470AFD427E9D0F600F9DD82 /* MagnificationGestureBC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8470810227E8BA8500A58892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8470810527E8BA8500A58892 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8470810C27E8BAAF00A58892 /* LongPressGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBC.swift; sourceTree = "<group>"; };
+		8470AFD427E9D0F600F9DD82 /* MagnificationGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				847080FE27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift */,
 				8470810027E8BA8400A58892 /* ContentView.swift */,
 				8470810C27E8BAAF00A58892 /* LongPressGestureBC.swift */,
+				8470AFD427E9D0F600F9DD82 /* MagnificationGestureBC.swift */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
 				8470810427E8BA8500A58892 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8470AFD527E9D0F600F9DD82 /* MagnificationGestureBC.swift in Sources */,
 				8470810127E8BA8400A58892 /* ContentView.swift in Sources */,
 				847080FF27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift in Sources */,
 				8470810D27E8BAAF00A58892 /* LongPressGestureBC.swift in Sources */,
