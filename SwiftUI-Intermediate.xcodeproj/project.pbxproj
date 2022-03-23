@@ -17,6 +17,7 @@
 		8470AFD527E9D0F600F9DD82 /* MagnificationGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470AFD427E9D0F600F9DD82 /* MagnificationGestureBC.swift */; };
 		8470AFD727E9DDAE00F9DD82 /* RotatitonGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470AFD627E9DDAE00F9DD82 /* RotatitonGestureBC.swift */; };
 		84ED2AE027EB6112000428BC /* ScrollViewReaderBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED2ADF27EB6112000428BC /* ScrollViewReaderBC.swift */; };
+		84ED2AE227EB753C000428BC /* GeometryReaderBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED2AE127EB753C000428BC /* GeometryReaderBC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8470AFD427E9D0F600F9DD82 /* MagnificationGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBC.swift; sourceTree = "<group>"; };
 		8470AFD627E9DDAE00F9DD82 /* RotatitonGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatitonGestureBC.swift; sourceTree = "<group>"; };
 		84ED2ADF27EB6112000428BC /* ScrollViewReaderBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBC.swift; sourceTree = "<group>"; };
+		84ED2AE127EB753C000428BC /* GeometryReaderBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				8467431B27EB1F1700CDCCFA /* DragGestureBC.swift */,
 				8467431D27EB271C00CDCCFA /* DragGestureBC2.swift */,
 				84ED2ADF27EB6112000428BC /* ScrollViewReaderBC.swift */,
+				84ED2AE127EB753C000428BC /* GeometryReaderBC.swift */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
 				8470810427E8BA8500A58892 /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 				8467431C27EB1F1700CDCCFA /* DragGestureBC.swift in Sources */,
 				8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */,
 				8470AFD727E9DDAE00F9DD82 /* RotatitonGestureBC.swift in Sources */,
+				84ED2AE227EB753C000428BC /* GeometryReaderBC.swift in Sources */,
 				8470AFD527E9D0F600F9DD82 /* MagnificationGestureBC.swift in Sources */,
 				8470810127E8BA8400A58892 /* ContentView.swift in Sources */,
 				84ED2AE027EB6112000428BC /* ScrollViewReaderBC.swift in Sources */,
