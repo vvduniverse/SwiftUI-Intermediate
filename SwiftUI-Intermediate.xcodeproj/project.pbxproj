@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8467431C27EB1F1700CDCCFA /* DragGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467431B27EB1F1700CDCCFA /* DragGestureBC.swift */; };
+		8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467431D27EB271C00CDCCFA /* DragGestureBC2.swift */; };
 		847080FF27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847080FE27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift */; };
 		8470810127E8BA8400A58892 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470810027E8BA8400A58892 /* ContentView.swift */; };
 		8470810327E8BA8500A58892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8470810227E8BA8500A58892 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8467431B27EB1F1700CDCCFA /* DragGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBC.swift; sourceTree = "<group>"; };
+		8467431D27EB271C00CDCCFA /* DragGestureBC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBC2.swift; sourceTree = "<group>"; };
 		847080FB27E8BA8400A58892 /* SwiftUI-Intermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intermediate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847080FE27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_IntermediateApp.swift; sourceTree = "<group>"; };
 		8470810027E8BA8400A58892 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				8470810C27E8BAAF00A58892 /* LongPressGestureBC.swift */,
 				8470AFD427E9D0F600F9DD82 /* MagnificationGestureBC.swift */,
 				8470AFD627E9DDAE00F9DD82 /* RotatitonGestureBC.swift */,
+				8467431B27EB1F1700CDCCFA /* DragGestureBC.swift */,
+				8467431D27EB271C00CDCCFA /* DragGestureBC2.swift */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
 				8470810427E8BA8500A58892 /* Preview Content */,
 			);
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8467431C27EB1F1700CDCCFA /* DragGestureBC.swift in Sources */,
+				8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */,
 				8470AFD727E9DDAE00F9DD82 /* RotatitonGestureBC.swift in Sources */,
 				8470AFD527E9D0F600F9DD82 /* MagnificationGestureBC.swift in Sources */,
 				8470810127E8BA8400A58892 /* ContentView.swift in Sources */,
