@@ -89,6 +89,7 @@
 				840C31EF27EC89E000BD3F4F /* MultipleSheetsBC.swift */,
 				849C77C127ECB30000A5CDB3 /* MaskBC.swift */,
 				849C77DD27ECCB3800A5CDB3 /* Sounds */,
+				849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
 				8470810427E8BA8500A58892 /* Preview Content */,
 			);
@@ -109,7 +110,6 @@
 				849C77E627ECCB6500A5CDB3 /* ding.mp3 */,
 				849C77E427ECCB6500A5CDB3 /* gamefailed.mp3 */,
 				849C77E527ECCB6500A5CDB3 /* softgong.mp3 */,
-				849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
