@@ -24,6 +24,7 @@
 		849C77EB27ECCBCF00A5CDB3 /* SoundsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */; };
 		849C780E27ECD4B700A5CDB3 /* HapticsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C780D27ECD4B700A5CDB3 /* HapticsBC.swift */; };
 		84AA1EC127EDC0010012FFDE /* LocalNotificationBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA1EC027EDC0010012FFDE /* LocalNotificationBC.swift */; };
+		84AA1EDD27EDD1BB0012FFDE /* HashableBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA1EDC27EDD1BB0012FFDE /* HashableBC.swift */; };
 		84ED2AE027EB6112000428BC /* ScrollViewReaderBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED2ADF27EB6112000428BC /* ScrollViewReaderBC.swift */; };
 		84ED2AE227EB753C000428BC /* GeometryReaderBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED2AE127EB753C000428BC /* GeometryReaderBC.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBC.swift; sourceTree = "<group>"; };
 		849C780D27ECD4B700A5CDB3 /* HapticsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBC.swift; sourceTree = "<group>"; };
 		84AA1EC027EDC0010012FFDE /* LocalNotificationBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBC.swift; sourceTree = "<group>"; };
+		84AA1EDC27EDD1BB0012FFDE /* HashableBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBC.swift; sourceTree = "<group>"; };
 		84ED2ADF27EB6112000428BC /* ScrollViewReaderBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBC.swift; sourceTree = "<group>"; };
 		84ED2AE127EB753C000428BC /* GeometryReaderBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 				849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */,
 				849C780D27ECD4B700A5CDB3 /* HapticsBC.swift */,
 				84AA1EC027EDC0010012FFDE /* LocalNotificationBC.swift */,
+				84AA1EDC27EDD1BB0012FFDE /* HashableBC.swift */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
 				8470810427E8BA8500A58892 /* Preview Content */,
 			);
@@ -203,6 +206,7 @@
 				849C77C227ECB30000A5CDB3 /* MaskBC.swift in Sources */,
 				8470AFD527E9D0F600F9DD82 /* MagnificationGestureBC.swift in Sources */,
 				8470810127E8BA8400A58892 /* ContentView.swift in Sources */,
+				84AA1EDD27EDD1BB0012FFDE /* HashableBC.swift in Sources */,
 				840C31F027EC89E000BD3F4F /* MultipleSheetsBC.swift in Sources */,
 				84ED2AE027EB6112000428BC /* ScrollViewReaderBC.swift in Sources */,
 				847080FF27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift in Sources */,
