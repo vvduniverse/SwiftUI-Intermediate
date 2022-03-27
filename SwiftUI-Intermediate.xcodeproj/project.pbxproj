@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		840C31F027EC89E000BD3F4F /* MultipleSheetsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C31EF27EC89E000BD3F4F /* MultipleSheetsBC.swift */; };
+		8429D3FD27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429D3FC27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift */; };
 		8467431C27EB1F1700CDCCFA /* DragGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467431B27EB1F1700CDCCFA /* DragGestureBC.swift */; };
 		8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467431D27EB271C00CDCCFA /* DragGestureBC2.swift */; };
 		847080FF27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847080FE27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		840C31EF27EC89E000BD3F4F /* MultipleSheetsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBC.swift; sourceTree = "<group>"; };
+		8429D3FC27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFetchRequestBC.swift; sourceTree = "<group>"; };
 		8467431B27EB1F1700CDCCFA /* DragGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBC.swift; sourceTree = "<group>"; };
 		8467431D27EB271C00CDCCFA /* DragGestureBC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBC2.swift; sourceTree = "<group>"; };
 		847080FB27E8BA8400A58892 /* SwiftUI-Intermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intermediate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				84AA1EC027EDC0010012FFDE /* LocalNotificationBC.swift */,
 				84AA1EDC27EDD1BB0012FFDE /* HashableBC.swift */,
 				84B801C727F05398008F4C71 /* ArraysBC.swift */,
+				8429D3FC27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
 				8470810427E8BA8500A58892 /* Preview Content */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8429D3FD27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift in Sources */,
 				84B801C827F05398008F4C71 /* ArraysBC.swift in Sources */,
 				8467431C27EB1F1700CDCCFA /* DragGestureBC.swift in Sources */,
 				8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */,
