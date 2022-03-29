@@ -24,6 +24,8 @@
 		849C77E927ECCB6500A5CDB3 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 849C77E627ECCB6500A5CDB3 /* ding.mp3 */; };
 		849C77EB27ECCBCF00A5CDB3 /* SoundsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */; };
 		849C780E27ECD4B700A5CDB3 /* HapticsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C780D27ECD4B700A5CDB3 /* HapticsBC.swift */; };
+		849FC75327F32CF500E6B0DA /* CoreDataRelationshipsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC75227F32CF500E6B0DA /* CoreDataRelationshipsBC.swift */; };
+		849FC77527F3306900E6B0DA /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849FC77327F3306900E6B0DA /* CoreDataContainer.xcdatamodeld */; };
 		84AA1EC127EDC0010012FFDE /* LocalNotificationBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA1EC027EDC0010012FFDE /* LocalNotificationBC.swift */; };
 		84AA1EDD27EDD1BB0012FFDE /* HashableBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA1EDC27EDD1BB0012FFDE /* HashableBC.swift */; };
 		84AAC9B627F1A7C4006794B6 /* CoreDataBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAC9B527F1A7C4006794B6 /* CoreDataBC.swift */; };
@@ -52,6 +54,8 @@
 		849C77E627ECCB6500A5CDB3 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 		849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBC.swift; sourceTree = "<group>"; };
 		849C780D27ECD4B700A5CDB3 /* HapticsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBC.swift; sourceTree = "<group>"; };
+		849FC75227F32CF500E6B0DA /* CoreDataRelationshipsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBC.swift; sourceTree = "<group>"; };
+		849FC77427F3306900E6B0DA /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		84AA1EC027EDC0010012FFDE /* LocalNotificationBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBC.swift; sourceTree = "<group>"; };
 		84AA1EDC27EDD1BB0012FFDE /* HashableBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBC.swift; sourceTree = "<group>"; };
 		84AAC9B527F1A7C4006794B6 /* CoreDataBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBC.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				84B801C727F05398008F4C71 /* ArraysBC.swift */,
 				8429D3FC27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift */,
 				84AAC9B527F1A7C4006794B6 /* CoreDataBC.swift */,
+				849FC75227F32CF500E6B0DA /* CoreDataRelationshipsBC.swift */,
+				849FC77327F3306900E6B0DA /* CoreDataContainer.xcdatamodeld */,
 				84AAC9D627F1AA2E006794B6 /* FruitsContainer.xcdatamodeld */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
 				8470810427E8BA8500A58892 /* Preview Content */,
@@ -209,7 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8429D3FD27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift in Sources */,
+				849FC75327F32CF500E6B0DA /* CoreDataRelationshipsBC.swift in Sources */,
 				84B801C827F05398008F4C71 /* ArraysBC.swift in Sources */,
+				849FC77527F3306900E6B0DA /* CoreDataContainer.xcdatamodeld in Sources */,
 				8467431C27EB1F1700CDCCFA /* DragGestureBC.swift in Sources */,
 				8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */,
 				849C77EB27ECCBCF00A5CDB3 /* SoundsBC.swift in Sources */,
@@ -429,6 +437,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		849FC77327F3306900E6B0DA /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				849FC77427F3306900E6B0DA /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 849FC77427F3306900E6B0DA /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		84AAC9D627F1AA2E006794B6 /* FruitsContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
