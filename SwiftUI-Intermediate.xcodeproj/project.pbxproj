@@ -10,6 +10,7 @@
 		840C31F027EC89E000BD3F4F /* MultipleSheetsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C31EF27EC89E000BD3F4F /* MultipleSheetsBC.swift */; };
 		8423AEB227F45BB300427D79 /* BackgroundThreadBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423AEB127F45BB300427D79 /* BackgroundThreadBC.swift */; };
 		8423AED327F494ED00427D79 /* WeakSelfBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423AED227F494ED00427D79 /* WeakSelfBC.swift */; };
+		8423AEF127F4BC6D00427D79 /* TypealiasBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423AEF027F4BC6D00427D79 /* TypealiasBC.swift */; };
 		8429D3FD27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429D3FC27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift */; };
 		8467431C27EB1F1700CDCCFA /* DragGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467431B27EB1F1700CDCCFA /* DragGestureBC.swift */; };
 		8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467431D27EB271C00CDCCFA /* DragGestureBC2.swift */; };
@@ -41,6 +42,7 @@
 		840C31EF27EC89E000BD3F4F /* MultipleSheetsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBC.swift; sourceTree = "<group>"; };
 		8423AEB127F45BB300427D79 /* BackgroundThreadBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBC.swift; sourceTree = "<group>"; };
 		8423AED227F494ED00427D79 /* WeakSelfBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBC.swift; sourceTree = "<group>"; };
+		8423AEF027F4BC6D00427D79 /* TypealiasBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBC.swift; sourceTree = "<group>"; };
 		8429D3FC27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFetchRequestBC.swift; sourceTree = "<group>"; };
 		8467431B27EB1F1700CDCCFA /* DragGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBC.swift; sourceTree = "<group>"; };
 		8467431D27EB271C00CDCCFA /* DragGestureBC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBC2.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				849FC75227F32CF500E6B0DA /* CoreDataRelationshipsBC.swift */,
 				8423AEB127F45BB300427D79 /* BackgroundThreadBC.swift */,
 				8423AED227F494ED00427D79 /* WeakSelfBC.swift */,
+				8423AEF027F4BC6D00427D79 /* TypealiasBC.swift */,
 				849FC77327F3306900E6B0DA /* CoreDataContainer.xcdatamodeld */,
 				84AAC9D627F1AA2E006794B6 /* FruitsContainer.xcdatamodeld */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
@@ -242,6 +245,7 @@
 				847080FF27E8BA8400A58892 /* SwiftUI_IntermediateApp.swift in Sources */,
 				8470810D27E8BAAF00A58892 /* LongPressGestureBC.swift in Sources */,
 				8423AEB227F45BB300427D79 /* BackgroundThreadBC.swift in Sources */,
+				8423AEF127F4BC6D00427D79 /* TypealiasBC.swift in Sources */,
 				84AAC9B627F1A7C4006794B6 /* CoreDataBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
