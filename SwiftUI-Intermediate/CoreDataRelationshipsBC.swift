@@ -71,31 +71,29 @@ class CoreDataRelationshipViewModel: ObservableObject {
 struct CoreDataRelationshipsBC: View {
     
     @StateObject var vm = CoreDataRelationshipViewModel()
-    @State var textFieldText = ""
     
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack(spacing: 20) {
-                    HStack {
-                        TextField("Add fruit here...", text: $textFieldText)
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .shadow(color: .gray, radius: 5, x: 5, y: 5)
-                        
                         Button {
                             vm.addBusiness()
-//                            guard !textFieldText.isEmpty else { return }
-//                            vm.addFruit(text: textFieldText)
-//                            textFieldText = ""
                         } label: {
-                            Text("Submit")
+                            Text("Perform Action")
                         }
                         .buttonStyle(.borderedProminent)
                         .shadow(color: .gray, radius: 5, x: 5, y: 5)
                     }
-                    .padding(.horizontal)
+//                    .padding(.horizontal)
+                
+                ScrollView(.horizontal, showsIndicators: true) {
+                    HStack(alignment: .top) {
+                        ForEach(vm.businesses) { business in
+                            BusinessView(entity: business)
+                        }
+                    }
                 }
-            }
+                }
             .navigationTitle("Relationships")
         }
     }
@@ -104,5 +102,40 @@ struct CoreDataRelationshipsBC: View {
 struct CoreDataRelationshipsBC_Previews: PreviewProvider {
     static var previews: some View {
         CoreDataRelationshipsBC()
+    }
+}
+
+
+struct BusinessView: View {
+    
+    let entity: BusinessEntity
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            Text("Name: \(entity.name ?? "")")
+                .bold()
+            
+            if let departments = entity.departments?.allObjects as? [DepartmentEntity] {
+                Text("Departments:")
+                    .bold()
+                ForEach(departments) { department in
+                    Text(department.name ?? "")
+                }
+                
+            }
+            
+            if let employees = entity.employees?.allObjects as? [EmployeeEntity] {
+                Text("Departments:")
+                    .bold()
+                ForEach(employees) { employee in
+                    Text(employee.name ?? "")
+                }
+            }
+        }
+        .padding()
+        .frame(maxWidth: 300, alignment: .leading)
+        .background(Color.gray.opacity(0.5))
+        .cornerRadius(10)
+        .shadow(radius: 10)
     }
 }
