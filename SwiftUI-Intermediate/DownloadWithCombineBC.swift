@@ -28,22 +28,22 @@ class DownloadWithCombineViewModel: ObservableObject {
         
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else { return }
         
-//        1. create the publisher
-//        2. subscribe publisher on background thread
-//        3. recieve on main thread
-//        4. tryMap (check that the data is good)
-//        5. decode (decode data into PostModels)
-//        6. sink (put the item into our app)
-//        7. store (cancel subscription if needed)
+        //        1. create the publisher
+        //        2. subscribe publisher on background thread
+        //        3. recieve on main thread
+        //        4. tryMap (check that the data is good)
+        //        5. decode (decode data into PostModels)
+        //        6. sink (put the item into our app)
+        //        7. store (cancel subscription if needed)
         URLSession.shared.dataTaskPublisher(for: url)
-//            .subscribe(on: DispatchQueue.global(qos: .background))
+        //            .subscribe(on: DispatchQueue.global(qos: .background))
             .receive(on: DispatchQueue.main)
             .tryMap(handleOutput)
             .decode(type: [PostModelA].self, decoder: JSONDecoder())
-//            .replaceError(with: [])
-//            .sink(receiveValue: { [weak self] returnedPosts in
-//                self?.posts = returnedPosts
-//            })
+        //            .replaceError(with: [])
+        //            .sink(receiveValue: { [weak self] returnedPosts in
+        //                self?.posts = returnedPosts
+        //            })
             .sink { completion in
                 switch completion {
                 case .finished:
