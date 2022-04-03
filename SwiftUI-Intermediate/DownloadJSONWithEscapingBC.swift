@@ -42,7 +42,7 @@ class DownloadJSONWithEscapingViewModel: ObservableObject {
             print("SUCCESSFULLY DOWNLOADED DATA!")
             print(data)
             let jsonString = String(data: data, encoding: .utf8)
-            print(jsonString)
+            print(jsonString ?? "flw")
             
         }
         .resume()
