@@ -21,6 +21,7 @@
 		8470810D27E8BAAF00A58892 /* LongPressGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470810C27E8BAAF00A58892 /* LongPressGestureBC.swift */; };
 		8470AFD527E9D0F600F9DD82 /* MagnificationGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470AFD427E9D0F600F9DD82 /* MagnificationGestureBC.swift */; };
 		8470AFD727E9DDAE00F9DD82 /* RotatitonGestureBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470AFD627E9DDAE00F9DD82 /* RotatitonGestureBC.swift */; };
+		847A85F527F9DE590001AD13 /* SubscriberBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A85F427F9DE590001AD13 /* SubscriberBC.swift */; };
 		849B44CB27F6FBD8006E32C0 /* DownloadWithEscapingBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B44CA27F6FBD8006E32C0 /* DownloadWithEscapingBC.swift */; };
 		849B450327F72BBF006E32C0 /* DownloadWithCombineBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B450227F72BBF006E32C0 /* DownloadWithCombineBC.swift */; };
 		849C77C227ECB30000A5CDB3 /* MaskBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C77C127ECB30000A5CDB3 /* MaskBC.swift */; };
@@ -60,6 +61,7 @@
 		8470810C27E8BAAF00A58892 /* LongPressGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBC.swift; sourceTree = "<group>"; };
 		8470AFD427E9D0F600F9DD82 /* MagnificationGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBC.swift; sourceTree = "<group>"; };
 		8470AFD627E9DDAE00F9DD82 /* RotatitonGestureBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatitonGestureBC.swift; sourceTree = "<group>"; };
+		847A85F427F9DE590001AD13 /* SubscriberBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBC.swift; sourceTree = "<group>"; };
 		849B44CA27F6FBD8006E32C0 /* DownloadWithEscapingBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBC.swift; sourceTree = "<group>"; };
 		849B450227F72BBF006E32C0 /* DownloadWithCombineBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineBC.swift; sourceTree = "<group>"; };
 		849C77C127ECB30000A5CDB3 /* MaskBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBC.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				849B450227F72BBF006E32C0 /* DownloadWithCombineBC.swift */,
 				84D007E427F99BA7009B3406 /* DownloadJSONWithEscapingBC.swift */,
 				84D007E627F9A12E009B3406 /* TimerBC.swift */,
+				847A85F427F9DE590001AD13 /* SubscriberBC.swift */,
 				849FC77327F3306900E6B0DA /* CoreDataContainer.xcdatamodeld */,
 				84AAC9D627F1AA2E006794B6 /* FruitsContainer.xcdatamodeld */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
@@ -251,6 +254,7 @@
 				8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */,
 				84BE587627F5B0520086BE52 /* EscapingBC.swift in Sources */,
 				849C77EB27ECCBCF00A5CDB3 /* SoundsBC.swift in Sources */,
+				847A85F527F9DE590001AD13 /* SubscriberBC.swift in Sources */,
 				8423AED327F494ED00427D79 /* WeakSelfBC.swift in Sources */,
 				84BE589227F5E3D90086BE52 /* CodableBC.swift in Sources */,
 				849C780E27ECD4B700A5CDB3 /* HapticsBC.swift in Sources */,
