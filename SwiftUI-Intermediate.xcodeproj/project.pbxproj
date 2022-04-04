@@ -30,6 +30,7 @@
 		849C77E927ECCB6500A5CDB3 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 849C77E627ECCB6500A5CDB3 /* ding.mp3 */; };
 		849C77EB27ECCBCF00A5CDB3 /* SoundsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */; };
 		849C780E27ECD4B700A5CDB3 /* HapticsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C780D27ECD4B700A5CDB3 /* HapticsBC.swift */; };
+		849E4D2927FAE5EE00F516D7 /* FileManagerBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E4D2827FAE5EE00F516D7 /* FileManagerBC.swift */; };
 		849FC75327F32CF500E6B0DA /* CoreDataRelationshipsBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC75227F32CF500E6B0DA /* CoreDataRelationshipsBC.swift */; };
 		849FC77527F3306900E6B0DA /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849FC77327F3306900E6B0DA /* CoreDataContainer.xcdatamodeld */; };
 		84AA1EC127EDC0010012FFDE /* LocalNotificationBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA1EC027EDC0010012FFDE /* LocalNotificationBC.swift */; };
@@ -70,6 +71,7 @@
 		849C77E627ECCB6500A5CDB3 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 		849C77EA27ECCBCF00A5CDB3 /* SoundsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBC.swift; sourceTree = "<group>"; };
 		849C780D27ECD4B700A5CDB3 /* HapticsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBC.swift; sourceTree = "<group>"; };
+		849E4D2827FAE5EE00F516D7 /* FileManagerBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBC.swift; sourceTree = "<group>"; };
 		849FC75227F32CF500E6B0DA /* CoreDataRelationshipsBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBC.swift; sourceTree = "<group>"; };
 		849FC77427F3306900E6B0DA /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		84AA1EC027EDC0010012FFDE /* LocalNotificationBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBC.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				84D007E427F99BA7009B3406 /* DownloadJSONWithEscapingBC.swift */,
 				84D007E627F9A12E009B3406 /* TimerBC.swift */,
 				847A85F427F9DE590001AD13 /* SubscriberBC.swift */,
+				849E4D2827FAE5EE00F516D7 /* FileManagerBC.swift */,
 				849FC77327F3306900E6B0DA /* CoreDataContainer.xcdatamodeld */,
 				84AAC9D627F1AA2E006794B6 /* FruitsContainer.xcdatamodeld */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 				8423AED327F494ED00427D79 /* WeakSelfBC.swift in Sources */,
 				84BE589227F5E3D90086BE52 /* CodableBC.swift in Sources */,
 				849C780E27ECD4B700A5CDB3 /* HapticsBC.swift in Sources */,
+				849E4D2927FAE5EE00F516D7 /* FileManagerBC.swift in Sources */,
 				8470AFD727E9DDAE00F9DD82 /* RotatitonGestureBC.swift in Sources */,
 				84AA1EC127EDC0010012FFDE /* LocalNotificationBC.swift in Sources */,
 				84D007E527F99BA7009B3406 /* DownloadJSONWithEscapingBC.swift in Sources */,
