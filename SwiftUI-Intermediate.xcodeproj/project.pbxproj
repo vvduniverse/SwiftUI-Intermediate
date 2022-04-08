@@ -24,6 +24,10 @@
 		847A85F527F9DE590001AD13 /* SubscriberBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A85F427F9DE590001AD13 /* SubscriberBC.swift */; };
 		849B44CB27F6FBD8006E32C0 /* DownloadWithEscapingBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B44CA27F6FBD8006E32C0 /* DownloadWithEscapingBC.swift */; };
 		849B450327F72BBF006E32C0 /* DownloadWithCombineBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B450227F72BBF006E32C0 /* DownloadWithCombineBC.swift */; };
+		849B9D5A2800273000CFF171 /* DownloadingImageBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B9D592800273000CFF171 /* DownloadingImageBC.swift */; };
+		849B9D5C280027E500CFF171 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B9D5B280027E500CFF171 /* PhotoModel.swift */; };
+		849B9D5E2800289C00CFF171 /* DownloadingImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B9D5D2800289C00CFF171 /* DownloadingImagesViewModel.swift */; };
+		849B9D60280029AD00CFF171 /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B9D5F280029AD00CFF171 /* PhotoModelDataService.swift */; };
 		849C77C227ECB30000A5CDB3 /* MaskBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C77C127ECB30000A5CDB3 /* MaskBC.swift */; };
 		849C77E727ECCB6500A5CDB3 /* gamefailed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 849C77E427ECCB6500A5CDB3 /* gamefailed.mp3 */; };
 		849C77E827ECCB6500A5CDB3 /* softgong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 849C77E527ECCB6500A5CDB3 /* softgong.mp3 */; };
@@ -66,6 +70,10 @@
 		847A85F427F9DE590001AD13 /* SubscriberBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBC.swift; sourceTree = "<group>"; };
 		849B44CA27F6FBD8006E32C0 /* DownloadWithEscapingBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBC.swift; sourceTree = "<group>"; };
 		849B450227F72BBF006E32C0 /* DownloadWithCombineBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineBC.swift; sourceTree = "<group>"; };
+		849B9D592800273000CFF171 /* DownloadingImageBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageBC.swift; sourceTree = "<group>"; };
+		849B9D5B280027E500CFF171 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		849B9D5D2800289C00CFF171 /* DownloadingImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesViewModel.swift; sourceTree = "<group>"; };
+		849B9D5F280029AD00CFF171 /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
 		849C77C127ECB30000A5CDB3 /* MaskBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBC.swift; sourceTree = "<group>"; };
 		849C77E427ECCB6500A5CDB3 /* gamefailed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gamefailed.mp3; sourceTree = "<group>"; };
 		849C77E527ECCB6500A5CDB3 /* softgong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = softgong.mp3; sourceTree = "<group>"; };
@@ -151,6 +159,7 @@
 				847A85F427F9DE590001AD13 /* SubscriberBC.swift */,
 				849E4D2827FAE5EE00F516D7 /* FileManagerBC.swift */,
 				84C9002527FD9FE8000F4DFD /* CacheBC.swift */,
+				849B9D54280026DF00CFF171 /* DownloadingImages */,
 				849FC77327F3306900E6B0DA /* CoreDataContainer.xcdatamodeld */,
 				84AAC9D627F1AA2E006794B6 /* FruitsContainer.xcdatamodeld */,
 				8470810227E8BA8500A58892 /* Assets.xcassets */,
@@ -165,6 +174,49 @@
 				8470810527E8BA8500A58892 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		849B9D54280026DF00CFF171 /* DownloadingImages */ = {
+			isa = PBXGroup;
+			children = (
+				849B9D582800271300CFF171 /* Utilities */,
+				849B9D572800270A00CFF171 /* ViewModels */,
+				849B9D562800270300CFF171 /* Views */,
+				849B9D55280026FA00CFF171 /* Models */,
+			);
+			path = DownloadingImages;
+			sourceTree = "<group>";
+		};
+		849B9D55280026FA00CFF171 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				849B9D5B280027E500CFF171 /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		849B9D562800270300CFF171 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				849B9D592800273000CFF171 /* DownloadingImageBC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		849B9D572800270A00CFF171 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				849B9D5D2800289C00CFF171 /* DownloadingImagesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		849B9D582800271300CFF171 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				849B9D5F280029AD00CFF171 /* PhotoModelDataService.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		849C77DD27ECCB3800A5CDB3 /* Sounds */ = {
@@ -251,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849B450327F72BBF006E32C0 /* DownloadWithCombineBC.swift in Sources */,
+				849B9D60280029AD00CFF171 /* PhotoModelDataService.swift in Sources */,
 				8429D3FD27F0ACBC005A2710 /* CoreDataFetchRequestBC.swift in Sources */,
 				849FC75327F32CF500E6B0DA /* CoreDataRelationshipsBC.swift in Sources */,
 				84B801C827F05398008F4C71 /* ArraysBC.swift in Sources */,
@@ -259,6 +312,7 @@
 				8467431C27EB1F1700CDCCFA /* DragGestureBC.swift in Sources */,
 				8467431E27EB271C00CDCCFA /* DragGestureBC2.swift in Sources */,
 				84BE587627F5B0520086BE52 /* EscapingBC.swift in Sources */,
+				849B9D5A2800273000CFF171 /* DownloadingImageBC.swift in Sources */,
 				849C77EB27ECCBCF00A5CDB3 /* SoundsBC.swift in Sources */,
 				847A85F527F9DE590001AD13 /* SubscriberBC.swift in Sources */,
 				8423AED327F494ED00427D79 /* WeakSelfBC.swift in Sources */,
@@ -267,6 +321,7 @@
 				849E4D2927FAE5EE00F516D7 /* FileManagerBC.swift in Sources */,
 				8470AFD727E9DDAE00F9DD82 /* RotatitonGestureBC.swift in Sources */,
 				84AA1EC127EDC0010012FFDE /* LocalNotificationBC.swift in Sources */,
+				849B9D5C280027E500CFF171 /* PhotoModel.swift in Sources */,
 				84D007E527F99BA7009B3406 /* DownloadJSONWithEscapingBC.swift in Sources */,
 				84ED2AE227EB753C000428BC /* GeometryReaderBC.swift in Sources */,
 				84AAC9D827F1AA2E006794B6 /* FruitsContainer.xcdatamodeld in Sources */,
@@ -282,6 +337,7 @@
 				84D007E727F9A12E009B3406 /* TimerBC.swift in Sources */,
 				8423AEB227F45BB300427D79 /* BackgroundThreadBC.swift in Sources */,
 				8423AEF127F4BC6D00427D79 /* TypealiasBC.swift in Sources */,
+				849B9D5E2800289C00CFF171 /* DownloadingImagesViewModel.swift in Sources */,
 				84AAC9B627F1A7C4006794B6 /* CoreDataBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
